@@ -1,7 +1,7 @@
-# laravel9_ajax_request_example
+# laravel9_ajax_form_validation
 ## 1:Install Laravel 9:
 ```Dockerfile
-composer create-project laravel/laravel laravel9_ajax_request
+composer create-project laravel/laravel laravel9_ajax_form_validation
 ```
 ## 2:Create Migration and Model
 ```Dockerfile
@@ -73,6 +73,7 @@ class Post extends Model
         'title', 'body'
     ];
 }
+
 ```
 ## 3: Create Controller
 - Tạo post Controller:
@@ -81,14 +82,14 @@ php artisan make:controller PostController
 ```
 - Vào app/Http/Controllers/PostController.php
 ```Dockerfile
-<?php
+<?php 
   
 namespace App\Http\Controllers;
   
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use App\Models\Post;
-   
+  
 class PostController extends Controller
 {
     /**
@@ -290,3 +291,4 @@ php artisan serve
 - Vào http://localhost:8000/posts
 
 ![Container](img.png)
+
