@@ -1,7 +1,7 @@
 # laravel9_ajax_request_example
 ## 1:Install Laravel 9:
 ```Dockerfile
-composer create-project laravel/laravel laravel9_ajax_request_example
+composer create-project laravel/laravel laravel9_ajax_request
 ```
 ## 2:Create Migration and Model
 ```Dockerfile
